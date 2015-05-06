@@ -4,23 +4,62 @@
 fieldset{
 	padding: 0; border: none; margin: 0;
 }
-input, button[type='submit']{
+input{
 	border: none;
 }
 
 /*------------------------------------*\
     #FORM ELEMENTS
 \*------------------------------------*/
-input, button[type='submit']{
+input, button[type=submit]{
 	height: 30px;
-	padding: 4px;
-}
-input{
-	border: 1px solid @light-dark;
+	padding: 4px; border: 1px solid @primary;
+	color: @primary;
 }
 
-button[type='submit']{
-	background: @highlight;
-	color: @light;
+// ::-webkit-input-placeholder,
+// :-moz-placeholder,
+// ::-moz-placeholder,
+// :-ms-input-placeholder { /* WebKit browsers */
+// 	color: @primary;
+// }
+
+
+
+
+/*------------------------------------*\
+    #INPUT GROUPS
+\*------------------------------------*/
+.input-group {
+	position: relative;
+	display: table;
+	border-collapse: separate;
+	width: 100%;
+	margin-bottom: 1rem;
 }
 
+.input-group button,
+.input-group input[type=button],.input-group input[type=reset],.input-group input[type=submit]{
+	min-width:100%
+}
+input[type=button],input[type=reset],input[type=submit]{
+	max-width:none; width:auto;
+}
+
+.input-group input{
+	width: 100%;
+}
+
+.input-group > *{
+	display:table-cell;
+	margin-bottom:0;
+}
+
+.input-group-addon{
+	white-space:nowrap; vertical-align:middle;
+	width:1%;
+}
+
+.input-group-addon > *{
+	margin-bottom:0!important;
+}

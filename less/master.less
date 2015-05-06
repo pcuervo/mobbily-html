@@ -1,3 +1,12 @@
+/*
+Placeholder manifest file.
+the installer will append this file to the app vendored assets here: 'vendor/assets/stylesheets/spree/frontend/all.css'
+*/
+
+
+
+
+
 /*------------------------------------*\
     #CONTENTS
 \*------------------------------------*/
@@ -29,14 +38,16 @@
 
 
 /** BASE **/
-/* Colores............  */
-@import "_base.colors.less";
 /* Content............ Content styles: H1–H6, p, ul, li, a, span, etc.. */
 @import "_base.content.less";
 /* Typography............ Fonts, baseline. */
 @import "_base.typography.less";
+/* Icons............ SVG-to-Font icons. */
+@import "_base.icons.less";
 /* Z-index............ Organized, not a mess. */
 @import "_base.z-index.less";
+/* Colores............  */
+@import "_base.colors.less";
 
 
 /** OBJECTS **/
@@ -54,12 +65,14 @@
 /* Buttons........... Buttons elements. */
 @import "_components.buttons.less";
 /* Buttons........... Buttons elements. */
-@import "_components.media.less";
+@import "_components.product.less";
 /* Forms............. Forms elements. */
 @import "_components.forms.less";
 /* Filters............. Filters elements. */
 @import "_components.filters.less";
-/* Lightbox............ Lightbox styles. */
-@import "_components.lightbox.less";
 /* Tables............ Tables elements. */
 @import "_components.tables.less";
+/* Lightbox............ Lightbox styles. */
+@import "_components.lightbox.less";
+/* Sidr............ Mobile-like sider menu. */
+@import "_components.sidr.less";

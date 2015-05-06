@@ -4,17 +4,15 @@
 
 // @font-face {
 // 	font-family: 'font-name';
-// 	src: url('fonts/font-name.eot');
-// 	src: url('fonts/font-name.eot?#iefix') format('embedded-opentype'),
-// 		url('fonts/font-name.woff2') format('woff2'),
-// 		url('fonts/font-name.woff') format('woff'),
-// 		url('fonts/font-name.ttf') format('truetype'),
-// 		url('fonts/font-name.svg#font-name') format('svg');
+// 	src: font-url('fonts/font-name.eot');
+// 	src: font-url('fonts/font-name.eot?#iefix') format('embedded-opentype'),
+// 		font-url('fonts/font-name.woff2') format('woff2'),
+// 		font-url('fonts/font-name.woff') format('woff'),
+// 		font-url('fonts/font-name.ttf') format('truetype'),
+// 		font-url('fonts/font-name.svg#font-name') format('svg');
 // 	font-weight: normal;
 // 	font-style: normal;
 // }
-
-
 
 
 /*------------------------------------*\
@@ -24,46 +22,50 @@
 /**
  * HTML general elements
 **/
-body{ font-family: 'font-name'; color: @dark; }
+body{
+	font-family: 'Roboto', sans-serif;
+	color: @dark;
+}
 
 /**
  * Headers
 **/
 h1, h2, h3, h4, h5, h6{
 	margin-top: 0;
-	//font-family: '';
 }
 
-/**
- * Titles, subtitles
-**/
-.title{
-
-}
-.sub-title{
-
+h2{
+	.font( 30px, 1, 600, 'proxima-nova' );
 }
 
-.bg-image .title, .bg-image .sub-title{ color: @light; }
-.bg-image .title{
-	width: 100%;
-	text-align: center;
+h3{
+	.font( 25px, 1, 600, 'proxima-nova' );
+}
+
+h4{
+	.font( 14px, 1, 600, 'proxima-nova' );
+}
+
+h5{
+	.font( 12px, 1, 400, 'Roboto' );
+	color: $medium;
+}
+
+h6{
+	.font( 12px, 1, 600, 'proxima-nova' );
 }
 
 /**
  * Content
 **/
-p{
-	margin: 0 0 1em 0;
-	.font( 20px, 30px, normal, 'font-name' );
+p, a{
+	padding: 0; margin: 0 0 1em 0;
+	.font( 16px, 22px, 400, 'Roboto' );
 }
 
-
-/**
- * Image captions
-**/
-.image-caption{
-	//.font( 18px, 28px, normal, 'font-name' ); color: @light-dark;
+a{
+	margin: 0;
+	text-decoration: none;
 }
 
 

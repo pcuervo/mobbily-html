@@ -14,6 +14,16 @@
 	.clearfix { zoom:1; }
 }
 
+.text-shadow (@string: 0 1px 3px rgba(0, 0, 0, 0.25)) {
+	text-shadow: @string;
+}
+
+.drop-shadow (@string) {
+	-webkit-box-shadow:	@string;
+	-moz-box-shadow:	@string;
+	box-shadow:		@string;
+}
+
 .border-radiuses (@topright: 0, @bottomright: 0, @bottomleft: 0, @topleft: 0) {
 	-webkit-border-top-right-radius:    @topright;
 	-webkit-border-bottom-right-radius: @bottomright;
@@ -95,7 +105,7 @@
 	-o-transform: 		rotateY(@deg);
 }
 
-.translate(@x; @y) {
+.translate(@x, @y) {
 	-webkit-transform: translate(@x, @y);
 	-ms-transform: translate(@x, @y);
 	-o-transform: translate(@x, @y);
@@ -123,6 +133,11 @@
 	background: linear-gradient(rgba(255,255,255,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0.07) 26%, rgba(0,0,0,0.5) 71%, rgba(0,0,0,0.7) 100%);
 }
 
+.ellipsis(){
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
 
 
 
@@ -133,7 +148,7 @@
 \*------------------------------------*/
 
 
-.img-retina(@file-1x; @file-2x;) {
+.img-retina(@file-1x, @file-2x) {
 	background-image: url("@{file-1x}");
 
 	@media

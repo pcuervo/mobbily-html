@@ -6,8 +6,8 @@
 .filters__tabs{ background: @dark; }
 
 .tab-filter{
-    padding: @unidad @unidad @unidad (@unidad/2);
-    .font(12px, 1, 400, 'font-name'); text-transform: uppercase; color: @light; text-decoration: none;
+    padding:@unidad @unidad @unidad (@unidad/2);
+    .font; text-transform: uppercase; color: @light; text-decoration: none;
     background: @dark;
     white-space: nowrap; text-overflow: ellipsis;
     overflow: hidden;
@@ -18,7 +18,7 @@
     content: '\f107';
     width: 20px; height: 15px;
     font-family: 'FontAwesome';
-    position:absolute; top: @unidad; right: 0;
+    position: absolute; top: @unidad; right: 0;
 }
 .tab-filter--active{
     color: @dark;
@@ -67,11 +67,11 @@
 
 .filters__results{
     padding-bottom: 0;
-    background: @light-dark;
+    background: @dark;
 }
 .filters__results p{
     margin-bottom: (@unidad/2);
-    .font(16px, 1, 600, 'font-name');
+    .font;
 }
 .filters__results .filter{
     margin-left: 2px; margin-right: 2px;

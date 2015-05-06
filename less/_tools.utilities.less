@@ -25,6 +25,10 @@
 /**
  * White space
 **/
+.no-margin{
+	margin: 0;
+}
+
 .margin-bottom{ margin-bottom: @unidad; }
 .margin-bottom--small{ margin-bottom: (@unidad/2); }
 .margin-bottom--large{ margin-bottom: (@unidad*2); }
@@ -57,6 +61,15 @@
 .align-bottom{ vertical-align: bottom; }
 
 .center-full{ .center-full(); }
+
+
+/**
+ * Text
+**/
+
+.ellipsis{
+	.ellipsis;
+}
 
 
 
@@ -96,7 +109,6 @@
 **/
 .bg-logo-wrapper{
 	display: inline-block; vertical-align: middle;
-	width: 100%;
 	border: 0; margin: 0;
 	font-size: 0; line-height: 0;
 	background-color: transparent; background-position: 50% 50%; background-size: 100%; background-repeat: no-repeat;
@@ -109,13 +121,10 @@
 }
 
 /**
- * Responsive background images for photographies
+ * Responsive background images for images
 **/
 
 .bg-image{
 	background-size: cover !important; background-position: center center;
 	position: relative;
 }
-
-
-
