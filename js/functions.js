@@ -70,6 +70,25 @@ function scrollY() {
 
 
 
+/**
+ * Opens Modal
+ * @param element
+**/
+function openModal(element){
+	$(element).removeClass('hide');
+}
+
+/**
+ * Closes Modal
+ * @param element to be closed
+**/
+function closeModal(element){
+	$('.modal-wrapper').addClass('hide');
+}
+
+
+
+
 
 /*------------------------------------*\
 	#RESPONSIVE
