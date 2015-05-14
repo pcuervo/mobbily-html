@@ -71,17 +71,33 @@
 /*------------------------------------*\
 	#COLORES
 \*------------------------------------*/
-.button--hollow.button--dark{
-	border-color: @dark;
-	color: @dark;
-	background: none;
-}
 
+/**
+ * Basic
+**/
 .button--dark{
 	background: @dark;
 	color: @light;
 }
 
+
+/**
+ * Hollow
+**/
+.button--hollow.button--dark{
+	border-color: @dark;
+	color: @dark;
+	background: none;
+}
+.button--hollow.button--primary{
+	border-color: @primary;
+	color: @primary;
+	background: none;
+}
+
+/**
+ * Ink
+**/
 .button--ink.button--primary{
 	color: @primary;
 }
