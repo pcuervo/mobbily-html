@@ -412,9 +412,13 @@
 
 			</div><!-- main -->
 
-			<section class="[ action-buttons ]">
-				<a href="#" class="[ button button--primary button--action ]"><i class="[ icon-menu ]"></i></a>
-				<a href="#" class="[ button button--primary button--action ]"><i class="[ icon-cart ]"></i></a>
+			<section class="[ action-buttons ][ xmall-12 ]">
+				<div class="[ padding ]">
+					<div class="[ row ]">
+						<a href="#" class="[ button button--primary button--action ][ pull-left ]"><i class="[ icon-menu ]"></i></a>
+						<a href="#" class="[ button button--primary button--action ][ pull-right ]"><i class="[ icon-cart ]"></i></a>
+					</div>
+				</div><!-- padding -->
 			</section><!-- action-buttons -->
 
 			<section class="[ modal-wrapper ][ hide ]">
@@ -566,9 +570,10 @@
 						/**
 						 * Triggered events
 						**/
-						$('.container').scroll(function(){
-							fixedHeader();
+						$(window).scroll(function(){
+							toggleActionButtons();
 						});
+
 
 
 						/**
