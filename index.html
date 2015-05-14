@@ -24,9 +24,6 @@
 			<p class="chromeframe">Estás usando una versión <strong>vieja</strong> de tu explorador. Por favor <a href="http://browsehappy.com/" target="_blank"> actualiza tu explorador</a> para tener una experiencia completa.</p>
 		<![endif]-->
 		<div class="[ container ]">
-			<div class="[ action-buttons ]">
-
-			</div><!-- action-buttons -->
 			<header class="">
 				<div class="[ clearfix xmall-12 ]">
 					<div class="[ span xmall-8 ]">
@@ -415,14 +412,14 @@
 			<section class="[ action-buttons ][ xmall-12 ]">
 				<div class="[ padding ]">
 					<div class="[ row ]">
-						<a href="#" class="[ button button--primary button--action ][ pull-left ]"><i class="[ icon-menu ]"></i></a>
-						<a href="#" class="[ button button--primary button--action ][ pull-right ]"><i class="[ icon-cart ]"></i></a>
+						<a href="/cart" class="[ button button--primary button--action ][ pull-left ]"><i class="[ icon-cart ]"></i></a>
+						<a href="#" class="[ button button--primary button--action ][ pull-right ][ js-modal-opener ]" data-modal="nav"><i class="[ icon-menu ]"></i></a>
 					</div>
 				</div><!-- padding -->
 			</section><!-- action-buttons -->
 
-			<section class="[ modal-wrapper ][ hide ]">
-				<div class="[ modal ]">
+			<section class="[ modal-wrapper modal-nav ][ hide ]">
+				<div class="[ modal modal--full ]">
 					<div class="[ modal-content ]">
 						<article class="[ search ]">
 							<div class="[ padding ]">
@@ -468,7 +465,9 @@
 							</div>
 						</article><!-- menu -->
 						<article class="[ categorias ]">
-							<h3 class="[ text-center ]">Categorías</h3>
+							<div class="[ padding ]">
+								<h3 class="[ text-center ][ no-margin ]">Categorías</h3>
+							</div>
 							<div class="[ row ]">
 								<div class="[ span xmall-6 ][ border ]">
 									<div class="padding">
@@ -507,8 +506,16 @@
 								</div>
 							</div>
 						</article><!-- categorias -->
+						<artcile class="[ initial ]">
+							<div class="[ action-buttons ][ xmall-12 ]">
+								<div class="[ padding ]">
+									<div class="[ row ]">
+										<a href="#" class="[ button button--primary button--action ][ pull-right ][ js-modal-closer ]"><i class="[ icon-close ]"></i></a>
+									</div>
+								</div><!-- padding -->
+							</div>
+						</artcile><!-- action-buttons -->
 					</div><!-- modal-content -->
-					<a href="#" class="[ button button--primary button--action ]"><i class="[ icon-close ]"></i></a>
 				</div>
 			</section>
 
@@ -573,6 +580,20 @@
 						$(window).scroll(function(){
 							toggleActionButtons();
 						});
+
+						$('.js-modal-opener').on('click', function(e){
+							e.preventDefault();
+							var modal = $(this).data('modal');
+							var modal = '.modal-'+modal;
+							openModal(modal);
+						});
+
+						$('.js-modal-closer').on('click', function(e){
+							e.preventDefault();
+							closeModal();
+						});
+
+
 
 
 

@@ -59,23 +59,24 @@ function scrollY() {
 	return $(window).scrollTop();
 }
 
-
-
-
 /**
  * Opens Modal
- * @param element
+ * @param element to be shown
 **/
 function openModal(element){
+	console.log(element);
 	$(element).removeClass('hide');
+	$(element+' .action-button').addClass('always-opened');
+	$('body').css('position', 'fixed')
 }
 
 /**
  * Closes Modal
- * @param element to be closed
 **/
-function closeModal(element){
+function closeModal(){
 	$('.modal-wrapper').addClass('hide');
+	$('.modal-wrapper .action-button').removeClass('always-opened');
+	$('body').css('position', 'initial')
 }
 
 
