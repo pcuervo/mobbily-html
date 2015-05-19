@@ -24,9 +24,6 @@
 			<p class="chromeframe">Estás usando una versión <strong>vieja</strong> de tu explorador. Por favor <a href="http://browsehappy.com/" target="_blank"> actualiza tu explorador</a> para tener una experiencia completa.</p>
 		<![endif]-->
 		<div class="[ container ]">
-			<div class="[ action-buttons ]">
-
-			</div><!-- action-buttons -->
 			<header class="">
 				<div class="[ clearfix xmall-12 ]">
 					<div class="[ span xmall-8 ]">
@@ -205,104 +202,139 @@
 				</section>
 			</div><!-- main -->
 
-			<section class="[ action-buttons ]">
-				<a href="#" class="[ button button--primary button--action ]"><i class="[ icon-menu ]"></i></a>
-				<a href="#" class="[ button button--primary button--action ]"><i class="[ icon-cart ]"></i></a>
+			<section class="[ action-buttons ][ xmall-12 ]">
+				<div class="[ padding ]">
+					<div class="[ row ]">
+						<a href="/cart" class="[ button button--primary button--action ][ pull-left ]"><i class="[ icon-cart ]"></i></a>
+						<a href="#" class="[ button button--primary button--action ][ pull-right ][ js-modal-opener ]" data-modal="nav"><i class="[ icon-menu ]"></i></a>
+					</div>
+				</div><!-- padding -->
 			</section><!-- action-buttons -->
 
 			<section class="[ modal-wrapper modal-options ][ ]">
-				<div class="[ modal modal--full ]">
+				<div class="[ modal ]">
 					<div class="[ modal-content ]">
 						<article class="[ order-by ]">
 							<div class="[ padding ][ text-center ][ border ]">
-								<h3 class="[ no-margin ][ uppercase ]">Ordenar por</h3>
+								<h3 class="[ no-margin ]">Ordenar por</h3>
 							</div>
-							<div class="[ padding ]">
-								<form class="[ form ]" action="http://mobilly.us10.list-manage1.com/subscribe/post" method="POST">
-									<fieldset class="[ columna xmall-12 medium-6 ][ center ]">
-										<div class="input-group">
-											<input type="text" placeholder="buscar" name="s">
-											<span class="input-group-addon">
-												<button class="[ bg-primary ]" type="submit" name="submit"><i class="[ icon-search ]"></i></button>
-											</span>
-										</div>
-									</fieldset>
-								</form>
+							<div class="[ padding ][ text-center ]">
+								<a href="#" class="[ button button--primary button--hollow ][ margin-bottom--small margin-sides--small ]">por precio</a>
+								<a href="#" class="[ button button--primary button--hollow ][ margin-bottom--small margin-sides--small ]">calificación del vendedor</a>
+								<a href="#" class="[ button button--primary button--hollow ][ margin-bottom--small margin-sides--small ]">más viejo</a>
+								<a href="#" class="[ button button--primary button--hollow ][ margin-bottom--small margin-sides--small ]">más nuevo</a>
 							</div>
 						</article><!-- search -->
-						<article class="[ menu ]">
-							<div class="[ row ][ bg-dark ]">
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--light button--ink ]"><i class="[ icon-sillones ]"></i>quiero comprar</a>
+						<article class="[ filter-by ]">
+							<div class="[ padding ][ text-center ][ border ][ margin-bottom ]">
+								<h3 class="[ no-margin ]">Filtrar por</h3>
+							</div>
+							<h3 class="[ text-center ][ color-primary ][ margin-bottom--small ]"><small>Subcategoría</small></h3>
+							<div class="[ padding ][ text-center ]">
+								<a href="#" class="[ button button--primary button--hollow ][ margin-bottom--small margin-sides--small ]">lamparas de techo</a>
+								<a href="#" class="[ button button--primary button--hollow ][ margin-bottom--small margin-sides--small ]">lamparas de piso</a>
+								<a href="#" class="[ button button--primary button--hollow ][ margin-bottom--small margin-sides--small ]">lamparas de mesa</a>
+								<a href="#" class="[ button button--primary button--hollow ][ margin-bottom--small margin-sides--small ]">lamparas de pared</a>
+							</div>
+						</article>
+
+						<article class="[ price-range ][ margin-bottom ]">
+							<h3 class="[ text-center ][ color-primary ][ margin-bottom--small ]"><small>Rango de precios</small></h3>
+						</article>
+
+						<article class="[ state ][ margin-bottom ]">
+							<h3 class="[ text-center ][ color-primary ][ margin-bottom--small ]"><small>Estado</small></h3>
+							<div class="[ padding ][ text-center ]">
+								<a href="#" class="[ button button--primary button--hollow ][ margin-bottom--small margin-sides--small ]">nuevo</a>
+								<a href="#" class="[ button button--primary button--hollow ][ margin-bottom--small margin-sides--small ]">bueno</a>
+								<a href="#" class="[ button button--primary button--hollow ][ margin-bottom--small margin-sides--small ]">satisfactorio</a>
+								<a href="#" class="[ button button--primary button--hollow ][ margin-bottom--small margin-sides--small ]">gastado</a>
+							</div>
+						</article>
+
+						<article class="[ colors ][ margin-bottom ]">
+							<h3 class="[ text-center ][ color-primary ][ margin-bottom--small ]"><small>Color</small></h3>
+							<div class="[ wrapper ]">
+								<div class="[ row ]">
+									<div class="[ columna xmall-2 ][ margin-bottom--small ]">
+										<div class="[ bg-black ][ color-chip color-chip-selected ]">
+										</div>
 									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--light button--ink ]"><i class="[ icon-vender ]"></i>quiero vender</a>
+									<div class="[ columna xmall-2 ][ margin-bottom--small ]">
+										<div class="[ bg-grey ][ color-chip ]">
+										</div>
 									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--light button--ink ]"><i class="[ icon-como-funciona ]"></i>¿cómo funciona?</a>
+									<div class="[ columna xmall-2 ][ margin-bottom--small ]">
+										<div class="[ bg-brown ][ color-chip ]">
+										</div>
 									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--light button--ink ]"><i class="[ icon-user ]"></i>blog</a>
+									<div class="[ columna xmall-2 ][ margin-bottom--small ]">
+										<div class="[ bg-purple ][ color-chip ]">
+										</div>
 									</div>
-								</div>
-								<div class="[ span xmall-12 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--light button--ink ]"><i class="[ icon-blog ]"></i>mi cuenta</a>
+									<div class="[ columna xmall-2 ][ margin-bottom--small ]">
+										<div class="[ bg-blue ][ color-chip ]">
+										</div>
+									</div>
+									<div class="[ columna xmall-2 ][ margin-bottom--small ]">
+										<div class="[ bg-green ][ color-chip ]">
+										</div>
+									</div>
+									<div class="[ columna xmall-2 ][ margin-bottom--small ]">
+										<div class="[ bg-yellow ][ color-chip ]">
+										</div>
+									</div>
+									<div class="[ columna xmall-2 ][ margin-bottom--small ]">
+										<div class="[ bg-orange ][ color-chip ]">
+										</div>
+									</div>
+									<div class="[ columna xmall-2 ][ margin-bottom--small ]">
+										<div class="[ bg-red ][ color-chip ]">
+										</div>
+									</div>
+									<div class="[ columna xmall-2 ][ margin-bottom--small ]">
+										<div class="[ bg-wheat ][ color-chip ]">
+										</div>
+									</div>
+									<div class="[ columna xmall-2 ][ margin-bottom--small ]">
+										<div class="[ bg-silver ][ color-chip ]">
+										</div>
 									</div>
 								</div>
 							</div>
-						</article><!-- menu -->
-						<article class="[ categorias ]">
+						</article>
+
+						<article class="[ textures ][ margin-bottom ]">
+							<h3 class="[ text-center ][ color-primary ][ margin-bottom--small ]"><small>Textura</small></h3>
+							<div class="[ wrapper ]">
+								<div class="[ row ]">
+									<div class="[ columna xmall-2 ][ margin-bottom--small ]">
+										<div class="[ bg-black ][ color-chip color-chip-selected ]">
+										</div>
+									</div>
+									<div class="[ columna xmall-2 ][ margin-bottom--small ]">
+										<div class="[ bg-grey ][ color-chip ]">
+										</div>
+									</div>
+								</div>
+							</div>
+						</article>
+
+						<article class="[ exposed ][ margin-bottom ]">
 							<div class="[ padding ]">
-								<h3 class="[ text-center ][ no-margin ]">Categorías</h3>
-							</div>
-							<div class="[ row ]">
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--primary button--ink ]"><i class="[ icon-sillones ]"></i>Sillones</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--primary button--ink ]"><i class="[ icon-sillas ]"></i>Sillas</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--primary button--ink ]"><i class="[ icon-sillones ]"></i>Sillones</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--primary button--ink ]"><i class="[ icon-mesas ]"></i>Mesas</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--primary button--ink ]"><i class="[ icon-recamaras ]"></i>Recámaras</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--primary button--ink ]"><i class="[ icon-almacenaje ]"></i>Almacenaje</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--primary button--ink ]"><i class="[ icon-iluminación ]"></i>Iluminación</a>
-									</div>
+								<h3 class="[ text-center ][ color-primary ][ margin-bottom--small ]"><small>Este artículo a estado expuesto a:</small></h3>
+								<div class="">
+									<input type="checkbox" class=""><i class="[ icon-menu ][ color-primary ]"></i> Perro
+									<div class="[ clear ]"></div>
+									<input type="checkbox" class=""><i class="[ icon-menu ][ color-primary ]"></i> Gato
+									<div class="[ clear ]"></div>
+									<input type="checkbox" class=""><i class="[ icon-menu ][ color-primary ]"></i> Cigarro
 								</div>
 							</div>
-						</article><!-- categorias -->
+						</article>
+
 						<artcile class="[ initial ]">
-							<div class="[ action-buttons ][ xmall-12 ]">
+							<div class="[ action-buttons always-opened ][ xmall-12 ]">
 								<div class="[ padding ]">
 									<div class="[ row ]">
 										<a href="#" class="[ button button--primary button--action ][ pull-right ][ js-modal-closer ]"><i class="[ icon-close ]"></i></a>
@@ -372,8 +404,20 @@
 						/**
 						 * Triggered events
 						**/
-						$('.container').scroll(function(){
-							fixedHeader();
+						$(window).scroll(function(){
+							toggleActionButtons();
+						});
+
+						$('.js-modal-opener').on('click', function(e){
+							e.preventDefault();
+							var modal = $(this).data('modal');
+							var modal = '.modal-'+modal;
+							openModal(modal);
+						});
+
+						$('.js-modal-closer').on('click', function(e){
+							e.preventDefault();
+							closeModal();
 						});
 
 

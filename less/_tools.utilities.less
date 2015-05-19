@@ -29,13 +29,17 @@
 	margin: 0;
 }
 
-.margin-bottom{ margin-bottom: @unidad; }
-.margin-bottom--small{ margin-bottom: (@unidad/2); }
-.margin-bottom--large{ margin-bottom: (@unidad*2); }
+.margin-bottom{ margin-bottom: @unidad !important; }
+.margin-bottom--small{ margin-bottom: (@unidad/2) !important; }
+.margin-bottom--large{ margin-bottom: (@unidad*2) !important; }
 
-.padding{ padding: @unidad; }
-.padding--small{ padding: (@unidad/2); }
-.padding--large{ padding: (@unidad*2); }
+.margin-sides{ margin-left: (@unidad/2) !important; margin-right: (@unidad/2) !important; }
+.margin-sides--small{ margin-left: (@unidad/4) !important; margin-right: (@unidad/4) !important; }
+.margin-sides--large{ margin-left: @unidad !important; margin-right: @unidad !important; }
+
+.padding{ padding: @unidad !important; }
+.padding--small{ padding: (@unidad/2) !important; }
+.padding--large{ padding: (@unidad*2) !important; }
 
 
 /**
