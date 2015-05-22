@@ -19,7 +19,7 @@
 										<div class="input-group">
 											<input type="text" placeholder="buscar" name="s">
 											<span class="input-group-addon">
-												<button class="[ bg-primary ]" type="submit" name="submit"><i class="[ icon-search ]"></i></button>
+												<button class="[ bg-primary ]" type="submit" name="submit"><i class="[ icon-menu icon-search ]"></i></button>
 											</span>
 										</div>
 									</fieldset>
@@ -29,30 +29,26 @@
 						<article class="[ menu ]">
 							<div class="[ row ][ bg-dark ]">
 								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--light button--ink ]"><i class="[ icon-sillones ]"></i>quiero comprar</a>
-									</div>
+									<a href="#" class="[ block ][ button button--light button--ink ][ padding ]"><i class="[ icon-sillones ]"></i>quiero comprar</a>
 								</div>
 								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--light button--ink ]"><i class="[ icon-vender ]"></i>quiero vender</a>
-									</div>
+									<a href="#" class="[ block ][ button button--light button--ink ][ padding ]"><i class="[ icon-vender ]"></i>quiero vender</a>
 								</div>
 								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--light button--ink ]"><i class="[ icon-como-funciona ]"></i>¿cómo funciona?</a>
-									</div>
+									<a href="#" class="[ block ][ button button--light button--ink ][ padding ]"><i class="[ icon-como-funciona ]"></i>¿cómo funciona?</a>
 								</div>
 								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--light button--ink ]"><i class="[ icon-user ]"></i>blog</a>
-									</div>
+									<a href="#" class="[ block ][ button button--light button--ink ][ padding ]"><i class="[ icon-user ]"></i>blog</a>
 								</div>
-								<div class="[ span xmall-12 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--light button--ink ]"><i class="[ icon-blog ]"></i>mi cuenta</a>
-									</div>
+								<!-- If it is logged in show this: -->
+								<div class="[ span xmall-12 ][ border ][ text-center ][ bg-primary ]">
+									<a href="#" class="[ block ][ button button--light button--ink ][ padding ]"><i class="[ icon-blog ]"></i>mi cuenta</a>
 								</div>
+								<!-- If it is logged out show this: -->
+								<div class="[ span xmall-12 ][ border ][ text-center ][ bg-primary ]">
+									<a href="login.php" class="[ block ][ button button--light button--ink ][ padding ]"><i class="[ icon-blog ]"></i>log in o registrate</a>
+								</div>
+
 							</div>
 						</article><!-- menu -->
 						<article class="[ categorias ]">
