@@ -110,6 +110,141 @@
 				</div>
 			</section>
 
+			<section class="[ modal-wrapper modal-options ][ hide ]">
+				<div class="[ modal ]">
+					<div class="[ modal-content ]">
+						<article class="[ order-by ]">
+							<div class="[ padding ][ text-center ][ border ]">
+								<h3 class="[ no-margin ]">Ordenar por</h3>
+							</div>
+							<div class="[ padding ][ text-center ]">
+								<a href="#" class="[ button button--primary button--hollow ][ margin-bottom--small margin-sides--small ]">por precio</a>
+								<a href="#" class="[ button button--primary button--hollow ][ margin-bottom--small margin-sides--small ]">calificación del vendedor</a>
+								<a href="#" class="[ button button--primary button--hollow ][ margin-bottom--small margin-sides--small ]">más viejo</a>
+								<a href="#" class="[ button button--primary button--hollow ][ margin-bottom--small margin-sides--small ]">más nuevo</a>
+							</div>
+						</article><!-- search -->
+						<article class="[ filter-by ]">
+							<div class="[ padding ][ text-center ][ border ][ margin-bottom ]">
+								<h3 class="[ no-margin ]">Filtrar por</h3>
+							</div>
+							<h3 class="[ text-center ][ color-primary ][ margin-bottom--small ]"><small>Subcategoría</small></h3>
+							<div class="[ padding ][ text-center ]">
+								<a href="#" class="[ button button--primary button--hollow ][ margin-bottom--small margin-sides--small ]">lamparas de techo</a>
+								<a href="#" class="[ button button--primary button--hollow ][ margin-bottom--small margin-sides--small ]">lamparas de piso</a>
+								<a href="#" class="[ button button--primary button--hollow ][ margin-bottom--small margin-sides--small ]">lamparas de mesa</a>
+								<a href="#" class="[ button button--primary button--hollow ][ margin-bottom--small margin-sides--small ]">lamparas de pared</a>
+							</div>
+						</article>
+
+						<article class="[ price-range ][ margin-bottom ]">
+							<h3 class="[ text-center ][ color-primary ][ margin-bottom--small ]"><small>Rango de precios</small></h3>
+						</article>
+
+						<article class="[ state ][ margin-bottom ]">
+							<h3 class="[ text-center ][ color-primary ][ margin-bottom--small ]"><small>Estado</small></h3>
+							<div class="[ padding ][ text-center ]">
+								<a href="#" class="[ button button--primary button--hollow ][ margin-bottom--small margin-sides--small ]">nuevo</a>
+								<a href="#" class="[ button button--primary button--hollow ][ margin-bottom--small margin-sides--small ]">bueno</a>
+								<a href="#" class="[ button button--primary button--hollow ][ margin-bottom--small margin-sides--small ]">satisfactorio</a>
+								<a href="#" class="[ button button--primary button--hollow ][ margin-bottom--small margin-sides--small ]">gastado</a>
+							</div>
+						</article>
+
+						<article class="[ colors ][ margin-bottom ]">
+							<h3 class="[ text-center ][ color-primary ][ margin-bottom--small ]"><small>Color</small></h3>
+							<div class="[ wrapper ]">
+								<div class="[ row ]">
+									<div class="[ columna xmall-2 ][ margin-bottom--small ]">
+										<div class="[ bg-black ][ color-chip color-chip-selected ]">
+										</div>
+									</div>
+									<div class="[ columna xmall-2 ][ margin-bottom--small ]">
+										<div class="[ bg-grey ][ color-chip ]">
+										</div>
+									</div>
+									<div class="[ columna xmall-2 ][ margin-bottom--small ]">
+										<div class="[ bg-brown ][ color-chip ]">
+										</div>
+									</div>
+									<div class="[ columna xmall-2 ][ margin-bottom--small ]">
+										<div class="[ bg-purple ][ color-chip ]">
+										</div>
+									</div>
+									<div class="[ columna xmall-2 ][ margin-bottom--small ]">
+										<div class="[ bg-blue ][ color-chip ]">
+										</div>
+									</div>
+									<div class="[ columna xmall-2 ][ margin-bottom--small ]">
+										<div class="[ bg-green ][ color-chip ]">
+										</div>
+									</div>
+									<div class="[ columna xmall-2 ][ margin-bottom--small ]">
+										<div class="[ bg-yellow ][ color-chip ]">
+										</div>
+									</div>
+									<div class="[ columna xmall-2 ][ margin-bottom--small ]">
+										<div class="[ bg-orange ][ color-chip ]">
+										</div>
+									</div>
+									<div class="[ columna xmall-2 ][ margin-bottom--small ]">
+										<div class="[ bg-red ][ color-chip ]">
+										</div>
+									</div>
+									<div class="[ columna xmall-2 ][ margin-bottom--small ]">
+										<div class="[ bg-wheat ][ color-chip ]">
+										</div>
+									</div>
+									<div class="[ columna xmall-2 ][ margin-bottom--small ]">
+										<div class="[ bg-silver ][ color-chip ]">
+										</div>
+									</div>
+								</div>
+							</div>
+						</article>
+
+						<article class="[ textures ][ margin-bottom ]">
+							<h3 class="[ text-center ][ color-primary ][ margin-bottom--small ]"><small>Textura</small></h3>
+							<div class="[ wrapper ]">
+								<div class="[ row ]">
+									<div class="[ columna xmall-2 ][ margin-bottom--small ]">
+										<div class="[ bg-black ][ color-chip color-chip-selected ]">
+										</div>
+									</div>
+									<div class="[ columna xmall-2 ][ margin-bottom--small ]">
+										<div class="[ bg-grey ][ color-chip ]">
+										</div>
+									</div>
+								</div>
+							</div>
+						</article>
+
+						<article class="[ exposed ][ margin-bottom ]">
+							<div class="[ padding ]">
+								<h3 class="[ text-center ][ color-primary ][ margin-bottom--small ]"><small>Este artículo a estado expuesto a:</small></h3>
+								<div class="">
+									<input type="checkbox" class=""><i class="[ icon-menu ][ color-primary ]"></i> Perro
+									<div class="[ clear ]"></div>
+									<input type="checkbox" class=""><i class="[ icon-menu ][ color-primary ]"></i> Gato
+									<div class="[ clear ]"></div>
+									<input type="checkbox" class=""><i class="[ icon-menu ][ color-primary ]"></i> Cigarro
+								</div>
+							</div>
+						</article>
+
+						<artcile class="[ initial ]">
+							<div class="[ action-buttons always-opened ][ xmall-12 ]">
+								<div class="[ padding ]">
+									<div class="[ row ]">
+										<a href="#" class="[ button button--primary button--action ][ pull-right ][ js-modal-closer ]"><i class="[ icon-close ]"></i></a>
+									</div>
+								</div><!-- padding -->
+							</div>
+						</artcile><!-- action-buttons -->
+					</div><!-- modal-content -->
+				</div>
+			</section>
+
 		</div><!-- container -->
 		<footer class="">
 			<section class="[ border ][ padding ]">

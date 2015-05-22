@@ -1,483 +1,262 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Mobbily</title>
-		<link rel="shortcut icon" href="images/favicon.ico">
-		<link rel="stylesheet" href="style.css">
-		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-		<meta name="description" content="">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta http-equiv="cleartype" content="on">
-		<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-
-		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-
-		<!-- TYPEKIT -->
-			<script src="//use.typekit.net/xqu5wzd.js"></script>
-			<script>try{Typekit.load();}catch(e){}</script>
-		<!-- TYPEKIT -->
-	</head>
-	<body>
-		<!--[if lt IE 9]>
-			<p class="chromeframe">Estás usando una versión <strong>vieja</strong> de tu explorador. Por favor <a href="http://browsehappy.com/" target="_blank"> actualiza tu explorador</a> para tener una experiencia completa.</p>
-		<![endif]-->
-		<div class="[ container ]">
-			<header class="">
-				<div class="[ clearfix xmall-12 ]">
-					<div class="[ span xmall-8 ]">
-						<i class="[ icon-mobbily-logo ][ text-center ][ bg-primary ][ inline-block align-top ]">
-						</i><h1 class="[ inline-block align-top ][ color-primary ]">
-							<i class="[ icon-mobbily ]"></i>
-						</h1>
+<?php include_once "header.php" ?>
+	<section class="[ product-images ]">
+		<div class="[ padding ]">
+			<h3 class="[ no-margin ][ text-center ]">Name of the product</h3>
+		</div>
+		<article class="[ product-images ]">
+			<div class="[ border ][ main-image ]">
+				<div class="[ padding ]">
+					<img class="[ image-responsive ]" src="images/chair.jpg" alt="">
+				</div>
+			</div>
+			<div class="[ secondary-images ]">
+				<div class="[ row ]">
+					<div class="[ span xmall-2 ][ border ]">
+						<img class="[ image-responsive ]" src="images/chair.jpg" alt="">
 					</div>
-					<div class="[ columna xmall-4 ][ text-right ]">
-						<a class="[ menu__item ][ inline-block align-middle ]">
-							<i class="[ icon-cart ]"></i>
-							<!-- <span class="[ notification notification__number ]">
-								1
-							</span> -->
-						</a><a class="[ menu__item ][ inline-block align-middle ]">
-							<i class="[ icon-menu ]"></i>
-						</a>
+					<div class="[ span xmall-2 ][ border ]">
+						<img class="[ image-responsive ]" src="images/chair.jpg" alt="">
+					</div>
+					<div class="[ span xmall-2 ][ border ]">
+						<img class="[ image-responsive ]" src="images/chair.jpg" alt="">
 					</div>
 				</div>
-			</header>
-			<div class="[ main ]">
+			</div>
+		</article>
+	</section><!-- product-images -->
 
-				<section class="[ product-images ]">
-					<div class="[ padding ]">
-						<h3 class="[ no-margin ][ text-center ]">Name of the product</h3>
-					</div>
-					<article class="[ product-images ]">
-						<div class="[ border ][ main-image ]">
-							<div class="[ padding ]">
-								<img class="[ image-responsive ]" src="images/chair.jpg" alt="">
-							</div>
-						</div>
-						<div class="[ secondary-images ]">
-							<div class="[ row ]">
-								<div class="[ span xmall-2 ][ border ]">
-									<img class="[ image-responsive ]" src="images/chair.jpg" alt="">
-								</div>
-								<div class="[ span xmall-2 ][ border ]">
-									<img class="[ image-responsive ]" src="images/chair.jpg" alt="">
-								</div>
-								<div class="[ span xmall-2 ][ border ]">
-									<img class="[ image-responsive ]" src="images/chair.jpg" alt="">
-								</div>
-							</div>
-						</div>
-					</article>
-				</section><!-- product-images -->
-
-				<section class="[ bg-primary ]">
-					<div class="[ padding ]">
-						<div class="[ row ][ margin-bottom ]">
-							<div class="[ columna xmall-6 ]">
-								<h5><i class="[ icon-coins ]"></i> $3,000</h5>
-							</div>
-							<div class="[ columna xmall-6 ]">
-								<h5><i class="[ icon-stack ]"></i> 12 artículos disponibles</h5>
-							</div>
-							<div class="[ columna xmall-6 ]">
-								<a href="" class="[ block ][ button button--hollow ]">agregar al carrito</a>
-							</div>
-							<div class="[ columna xmall-6 ]">
-								<a href="" class="[ block ][ button button--highlight ]">1-click checkout</a>
-							</div>
-						</div><!-- row -->
-						<p class="[ color-light ][ no-margin ]"><i class="[ icon-notice ]"></i> 2 personas han agregado este a su carrito</p>
-					</div>
-				</section>
-
-				<section class="[ share ]">
-					<div class="[ border ]">
-						<div class="[ padding ][ text-center ]">
-							<h3>Conmparte éste producto</h3>
-							<a class="[ inline-block ][ button button--primary button--hollow ]">
-								<i class="[ icon-facebook ]"></i> Facebook
-							</a>
-							<a class="[ inline-block ][ button button--primary button--hollow ]">
-								<i class="[ icon-twitter ]"></i> Twitter
-							</a>
-						</div>
-					</div>
-				</section><!-- share -->
-
-				<section class="[ characteristics ]">
-					<div class="[ border ]">
-						<div class="[ padding ]">
-							<h3 class="[ text-center ]">Caracterícticas</h3>
-							<ul class="[ list-reset ]">
-								<li class="[ row ]">
-									<div class="[ xmall-1 pull-left ][ inline-block align-middle ]">
-										<i class="[ icon-use ][ color-primary ]"></i>
-									</div>
-									<div class="[ xmall-11 pull-left ][ inline-block align-middle ]">
-										<span class="[ color-primary ]">estado:</span> nuevo In eo enim positum est id quod dicimus esse expetendum portenta haec esse dicit neque ea ratione ullo modo posse.
-									</div>
-								</li>
-								<li class="[ row ]">
-									<div class="[ xmall-1 left ][ inline-block align-middle ]">
-										<i class="[ icon-tags ][ color-primary ]"></i>
-									</div>
-									<div class="[ xmall-11 left ][ inline-block align-middle ]">
-										<span class="[ color-primary ]">marca:</span> lorem ipsum
-									</div>
-								</li>
-								<li class="[ row ]">
-									<div class="[ xmall-1 left ][ inline-block align-middle ]">
-										<i class="[ icon-info ][ color-primary ]"></i>
-									</div>
-									<div class="[ xmall-11 left ][ inline-block align-middle ]">
-										<span class="[ color-primary ]">material:</span> lorem ipsum
-									</div>
-								</li>
-								<li class="[ row ]">
-									<div class="[ xmall-1 left ][ inline-block align-middle ]">
-										<i class="[ icon-clock ][ color-primary ]"></i>
-									</div>
-									<div class="[ xmall-11 left ][ inline-block align-middle ]">
-										<span class="[ color-primary ]">edad:</span> lorem ipsum
-									</div>
-								</li>
-								<li class="[ row ]">
-									<div class="[ xmall-1 left ][ inline-block align-middle ]">
-										<i class="[ icon-grid ][ color-primary ]"></i>
-									</div>
-									<div class="[ xmall-11 left ][ inline-block align-middle ]">
-										<span class="[ color-primary ]">color:</span> <span class="[ inline-block ][ xmall-6 ]" style="background-color: #000;" >&nbsp;</span>
-									</div>
-								</li>
-								<li class="[ row ]">
-									<div class="[ xmall-1 left ][ inline-block align-middle ]">
-										<i class="[ icon-tap ][ color-primary ]"></i>
-									</div>
-									<div class="[ xmall-11 left ][ inline-block align-middle ]">
-										<span class="[ color-primary ]">textura:</span> <span class="[ inline-block ][ xmall-6 ]" style="background-color: #000;" >&nbsp;</span>
-									</div>
-								</li>
-								<li class="[ row ]">
-									<div class="[ xmall-1 left ][ inline-block align-middle ]">
-										<i class="[ icon-cubes ][ color-primary ]"></i>
-									</div>
-									<div class="[ xmall-11 left ][ inline-block align-middle ]">
-										<span class="[ color-primary ]">tipo de venta:</span> lorem ipsum
-									</div>
-								</li>
-								<li class="[ row ]">
-									<div class="[ xmall-1 left ][ inline-block align-middle ]">
-										<i class="[ icon-sand-clock ][ color-primary ]"></i>
-									</div>
-									<div class="[ xmall-11 left ][ inline-block align-middle ]">
-										<span class="[ color-primary ]">Antigüedad / Vintage</span>
-									</div>
-								</li>
-								<li class="[ row ]">
-									<div class="[ xmall-1 left ][ inline-block align-middle ]">
-										<i class="[ icon-kids ][ color-primary ]"></i>
-									</div>
-									<div class="[ xmall-11 left ][ inline-block align-middle ]">
-										<span class="[ color-primary ]">Mueble para niños</span>
-									</div>
-								</li>
-								<li class="[ row ]">
-									<div class="[ xmall-1 left ][ inline-block align-middle ]">
-										<i class="[ icon-balance ][ color-primary ]"></i>
-									</div>
-									<div class="[ xmall-11 left ][ inline-block align-middle ]">
-										<span class="[ color-primary ]">Pesa menos de 5 kilos</span>
-									</div>
-								</li>
-								<li class="[ row ]">
-									<div class="[ xmall-1 left ][ inline-block align-middle ]">
-										<i class="[ icon-broken-link ][ color-primary ]"></i>
-									</div>
-									<div class="[ xmall-11 left ][ inline-block align-middle ]">
-										<span class="[ color-primary ]">Tiene golpes o rayones de más de 2 centímetros</span>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</section>
-
-				<section class="[ exposed ]">
-					<div class="[ border ]">
-						<div class="[ padding ]">
-							<h3 class="[ text-center ]">Este artículo ha estado expuesto a:</h3>
-							<ul class="[ list-reset ]">
-								<li class="[ row ]">
-									<div class="[ xmall-1 pull-left ][ inline-block align-middle ]">
-										<i class="[ icon-menu ][ color-primary ]"></i>
-									</div>
-									<div class="[ xmall-11 pull-left ][ inline-block align-middle ]">
-										<span class="[ color-primary ]">Perros</span>
-									</div>
-								</li>
-								<li class="[ row ]">
-									<div class="[ xmall-1 pull-left ][ inline-block align-middle ]">
-										<i class="[ icon-cat ][ color-primary ]"></i>
-									</div>
-									<div class="[ xmall-11 pull-left ][ inline-block align-middle ]">
-										<span class="[ color-primary ]">Gatos</span>
-									</div>
-								</li>
-								<li class="[ row ]">
-									<div class="[ xmall-1 pull-left ][ inline-block align-middle ]">
-										<i class="[ icon-cigarrette ][ color-primary ]"></i>
-									</div>
-									<div class="[ xmall-11 pull-left ][ inline-block align-middle ]">
-										<span class="[ color-primary ]">Cigarro</span>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</section>
-
-				<section class="[ calculator ]">
-					<div class="[ border ]">
-						<div class="[ padding ]">
-							<h3 class="[ text-center ]">Calcula el costo de envío</h3>
-							<form class="[ form ][ margin-bottom ]" action="" method="POST">
-								<fieldset class="[ columna xmall-12 medium-6 ][ center ]">
-									<div class="[ input-group ]">
-										<input type="text" placeholder="código postal" name="#" id="#">
-										<span class="input-group-addon">
-											<button class="[ bg-primary ]" type="submit" name="submit">calcular</button>
-										</span>
-									</div>
-								</fieldset>
-							</form>
-							<h3 class="[ text-center ]">$1,500</h3>
-							<div class="[ row ]">
-								<div class="[ xmall-1 pull-left ][ inline-block align-middle ]">
-									<i class="[ icon-map-marker ][ color-primary ]"></i>
-								</div>
-								<div class="[ xmall-11 pull-left ][ inline-block align-middle ]">
-									<h3 class="[ no-margin ]"><small>Puedes recogerlo en:</small></h3>
-									<h3 class="[ color-primary ]"><small>Colonia Escandón, 11800</small></h3>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section><!-- calculator -->
-
-				<section class="[ details ]">
-					<div class="[ padding ]">
-						<div class="[ row ]">
-							<div class="[ xmall-1 pull-left ][ inline-block align-middle ]">
-								<i class="[ icon-text ][ color-primary ]"></i>
-							</div>
-							<div class="[ xmall-11 pull-left ][ inline-block align-middle ]">
-								<p><span class="[ color-primary ]">Detalles:</span> Aliter enim nosmet ipsos nosse non possumus. Primum cur ista res digna odio est, nisi quod est turpis? Dolere malum est: in crucem qui agitur, beatus esse non potest. Aut unde est hoc contritum vetustate proverbium: quicum in tenebris?</p>
-							</div>
-						</div>
-					</div>
-				</section><!-- details -->
-
-				<section class="[ user-compact][ bg-primary ][ text-center ]">
-					<div class="[ padding ]">
-						<i class="[ block ][ margin-bottom ][ icon-user icon--xlarge ]"></i>
-						<h2 class="[ color-primary ]">Name of the user</h2>
-						<ul class="[ rating-stars ]">
-							<li class="[ star ][ inline-block align-middle ]">
-								<i class="[ icon-filled-star ]"></i>
-							</li>
-							<li class="[ star ][ inline-block align-middle ]">
-								<i class="[ icon-filled-star ]"></i>
-							</li>
-							<li class="[ star ][ inline-block align-middle ]">
-								<i class="[ icon-filled-star ]"></i>
-							</li>
-							<li class="[ star ][ inline-block align-middle ]">
-								<i class="[ icon-hollow-star ]"></i>
-							</li>
-							<li class="[ star ][ inline-block align-middle ]">
-								<i class="[ icon-hollow-star ]"></i>
-							</li>
-						</ul>
-						<p><a href="#" class="[ color-light ]">4 reseñas</a></p>
-						<a class="[ button button--hollow ]">
-							ver perfil
-						</a>
-					</div>
-				</section>
-
-
-
-
-
-			</div><!-- main -->
-
-			<section class="[ action-buttons ]">
-				<a href="#" class="[ button button--primary button--action ]"><i class="[ icon-menu ]"></i></a>
-				<a href="#" class="[ button button--primary button--action ]"><i class="[ icon-cart ]"></i></a>
-			</section><!-- action-buttons -->
-
-			<section class="[ modal-wrapper ][ hide ]">
-				<div class="[ modal ]">
-					<div class="[ modal-content ]">
-						<article class="[ search ]">
-							<div class="[ padding ]">
-								<form class="[ form ]" action="http://mobilly.us10.list-manage1.com/subscribe/post" method="POST">
-									<fieldset class="[ columna xmall-12 medium-6 ][ center ]">
-										<div class="input-group">
-											<input type="text" placeholder="buscar" name="s">
-											<span class="input-group-addon">
-												<button class="[ bg-primary ]" type="submit" name="submit"><i class="[ icon-search ]"></i></button>
-											</span>
-										</div>
-									</fieldset>
-								</form>
-							</div>
-						</article><!-- search -->
-						<article class="[ menu ]">
-							<div class="[ row ][ bg-dark ]">
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--light button--ink ]"><i class="[ icon-sillones ]"></i>quiero comprar</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--light button--ink ]"><i class="[ icon-vender ]"></i>quiero vender</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--light button--ink ]"><i class="[ icon-como-funciona ]"></i>¿cómo funciona?</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--light button--ink ]"><i class="[ icon-user ]"></i>blog</a>
-									</div>
-								</div>
-								<div class="[ span xmall-12 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--light button--ink ]"><i class="[ icon-blog ]"></i>mi cuenta</a>
-									</div>
-								</div>
-							</div>
-						</article><!-- menu -->
-						<article class="[ categorias ]">
-							<h3 class="[ text-center ]">Categorías</h3>
-							<div class="[ row ]">
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--primary button--ink ]"><i class="[ icon-sillones ]"></i>Sillones</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--primary button--ink ]"><i class="[ icon-sillas ]"></i>Sillas</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--primary button--ink ]"><i class="[ icon-sillones ]"></i>Sillones</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--primary button--ink ]"><i class="[ icon-mesas ]"></i>Mesas</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--primary button--ink ]"><i class="[ icon-recamaras ]"></i>Recámaras</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--primary button--ink ]"><i class="[ icon-almacenaje ]"></i>Almacenaje</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--primary button--ink ]"><i class="[ icon-iluminación ]"></i>Iluminación</a>
-									</div>
-								</div>
-							</div>
-						</article><!-- categorias -->
-					</div><!-- modal-content -->
-					<a href="#" class="[ button button--primary button--action ]"><i class="[ icon-close ]"></i></a>
+	<section class="[ bg-primary ]">
+		<div class="[ padding ]">
+			<div class="[ row ][ margin-bottom ]">
+				<div class="[ columna xmall-6 ]">
+					<h5><i class="[ icon-coins ]"></i> $3,000</h5>
 				</div>
-			</section>
-		</div><!-- container -->
-		<footer class="">
-			<section class="[ border ][ padding ]">
-				<div class="[ wrapper ]">
-					<h3 class="[ title ] [ text-center ]">Suscríbete a nuestro newsletter</h3>
-					<form class="[ form form--large ]" action="http://mobilly.us10.list-manage1.com/subscribe/post" method="POST">
-						<fieldset class="[ columna xmall-12 medium-6 ][ center ]">
-							<div class="input-group">
-								<input type="hidden" name="u" value="0511c8319e03329d800c3ac07">
-								<input type="hidden" name="id" value="dd4085bde0">
-								<input type="text" placeholder="tu@correo.com" name="MERGE0" id="MERGE0">
-								<span class="input-group-addon">
-									<button class="[ bg-primary ]" type="submit" name="submit"><i class="[ icon-newspaper ]"></i></button>
-								</span>
-							</div>
-						</fieldset>
-					</form>
-				</div><!-- wrapper -->
-			</section><!-- border -->
+				<div class="[ columna xmall-6 ]">
+					<h5><i class="[ icon-stack ]"></i> 12 artículos disponibles</h5>
+				</div>
+				<div class="[ columna xmall-6 ]">
+					<a href="" class="[ block ][ button button--hollow ]">agregar al carrito</a>
+				</div>
+				<div class="[ columna xmall-6 ]">
+					<a href="" class="[ block ][ button button--highlight ]">1-click checkout</a>
+				</div>
+			</div><!-- row -->
+			<p class="[ color-light ][ no-margin ]"><i class="[ icon-notice ]"></i> 2 personas han agregado este a su carrito</p>
+		</div>
+	</section>
 
-			<section class="[ text-center ][ margin-bottom ][ padding ]">
-				<a href="#"><small>¿Quiénes somos?</small></a>
-				<a href="#"><small>¿Cómo funciona?</small></a>
-				<a href="#"><small>FAQs</small></a>
-				<a href="#"><small>Trabaja con nosotros</small></a>
-				<a href="#"><small>Devoluciones y reembolsos</small></a>
-				<a href="#"><small>Términos y condiciones</small></a>
-				<a href="#"><small>Política de privacidad</small></a>
-				<a href="#"><small>Ayúdanos a transportar</small></a>
-				<a href="#"><small>Contacto</small></a>
-			</section>
+	<section class="[ share ]">
+		<div class="[ border ]">
+			<div class="[ padding ][ text-center ]">
+				<h3>Conmparte éste producto</h3>
+				<a class="[ inline-block ][ button button--primary button--hollow ]">
+					<i class="[ icon-facebook ]"></i> Facebook
+				</a>
+				<a class="[ inline-block ][ button button--primary button--hollow ]">
+					<i class="[ icon-twitter ]"></i> Twitter
+				</a>
+			</div>
+		</div>
+	</section><!-- share -->
 
-			<section class="[ text-center ]">
-				<p>
-					<small>
-						© 2014 Mobbily S.A de C.V.<br />
-						todos los derechos reservados.
-					</small>
-				</p>
-			</section>
-		</footer>
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script type="text/javascript" src="js/plugins.js"></script>
-		<script type="text/javascript" src="js/functions.js"></script>
-		<script type="text/javascript">
-				(function( $ ) {
-					"use strict";
-					$(function(){
+	<section class="[ characteristics ]">
+		<div class="[ border ]">
+			<div class="[ padding ]">
+				<h3 class="[ text-center ]">Caracterícticas</h3>
+				<ul class="[ list-reset ]">
+					<li class="[ row ]">
+						<div class="[ xmall-1 pull-left ][ inline-block align-middle ]">
+							<i class="[ icon-use ][ color-primary ]"></i>
+						</div>
+						<div class="[ xmall-11 pull-left ][ inline-block align-middle ]">
+							<span class="[ color-primary ]">estado:</span> nuevo In eo enim positum est id quod dicimus esse expetendum portenta haec esse dicit neque ea ratione ullo modo posse.
+						</div>
+					</li>
+					<li class="[ row ]">
+						<div class="[ xmall-1 left ][ inline-block align-middle ]">
+							<i class="[ icon-tags ][ color-primary ]"></i>
+						</div>
+						<div class="[ xmall-11 left ][ inline-block align-middle ]">
+							<span class="[ color-primary ]">marca:</span> lorem ipsum
+						</div>
+					</li>
+					<li class="[ row ]">
+						<div class="[ xmall-1 left ][ inline-block align-middle ]">
+							<i class="[ icon-info ][ color-primary ]"></i>
+						</div>
+						<div class="[ xmall-11 left ][ inline-block align-middle ]">
+							<span class="[ color-primary ]">material:</span> lorem ipsum
+						</div>
+					</li>
+					<li class="[ row ]">
+						<div class="[ xmall-1 left ][ inline-block align-middle ]">
+							<i class="[ icon-clock ][ color-primary ]"></i>
+						</div>
+						<div class="[ xmall-11 left ][ inline-block align-middle ]">
+							<span class="[ color-primary ]">edad:</span> lorem ipsum
+						</div>
+					</li>
+					<li class="[ row ]">
+						<div class="[ xmall-1 left ][ inline-block align-middle ]">
+							<i class="[ icon-grid ][ color-primary ]"></i>
+						</div>
+						<div class="[ xmall-11 left ][ inline-block align-middle ]">
+							<span class="[ color-primary ]">color:</span> <span class="[ inline-block ][ xmall-6 ]" style="background-color: #000;" >&nbsp;</span>
+						</div>
+					</li>
+					<li class="[ row ]">
+						<div class="[ xmall-1 left ][ inline-block align-middle ]">
+							<i class="[ icon-tap ][ color-primary ]"></i>
+						</div>
+						<div class="[ xmall-11 left ][ inline-block align-middle ]">
+							<span class="[ color-primary ]">textura:</span> <span class="[ inline-block ][ xmall-6 ]" style="background-color: #000;" >&nbsp;</span>
+						</div>
+					</li>
+					<li class="[ row ]">
+						<div class="[ xmall-1 left ][ inline-block align-middle ]">
+							<i class="[ icon-cubes ][ color-primary ]"></i>
+						</div>
+						<div class="[ xmall-11 left ][ inline-block align-middle ]">
+							<span class="[ color-primary ]">tipo de venta:</span> lorem ipsum
+						</div>
+					</li>
+					<li class="[ row ]">
+						<div class="[ xmall-1 left ][ inline-block align-middle ]">
+							<i class="[ icon-sand-clock ][ color-primary ]"></i>
+						</div>
+						<div class="[ xmall-11 left ][ inline-block align-middle ]">
+							<span class="[ color-primary ]">Antigüedad / Vintage</span>
+						</div>
+					</li>
+					<li class="[ row ]">
+						<div class="[ xmall-1 left ][ inline-block align-middle ]">
+							<i class="[ icon-kids ][ color-primary ]"></i>
+						</div>
+						<div class="[ xmall-11 left ][ inline-block align-middle ]">
+							<span class="[ color-primary ]">Mueble para niños</span>
+						</div>
+					</li>
+					<li class="[ row ]">
+						<div class="[ xmall-1 left ][ inline-block align-middle ]">
+							<i class="[ icon-balance ][ color-primary ]"></i>
+						</div>
+						<div class="[ xmall-11 left ][ inline-block align-middle ]">
+							<span class="[ color-primary ]">Pesa menos de 5 kilos</span>
+						</div>
+					</li>
+					<li class="[ row ]">
+						<div class="[ xmall-1 left ][ inline-block align-middle ]">
+							<i class="[ icon-broken-link ][ color-primary ]"></i>
+						</div>
+						<div class="[ xmall-11 left ][ inline-block align-middle ]">
+							<span class="[ color-primary ]">Tiene golpes o rayones de más de 2 centímetros</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
 
-						/**
-						 * On load
-						**/
+	<section class="[ exposed ]">
+		<div class="[ border ]">
+			<div class="[ padding ]">
+				<h3 class="[ text-center ]">Este artículo ha estado expuesto a:</h3>
+				<ul class="[ list-reset ]">
+					<li class="[ row ]">
+						<div class="[ xmall-1 pull-left ][ inline-block align-middle ]">
+							<i class="[ icon-menu ][ color-primary ]"></i>
+						</div>
+						<div class="[ xmall-11 pull-left ][ inline-block align-middle ]">
+							<span class="[ color-primary ]">Perros</span>
+						</div>
+					</li>
+					<li class="[ row ]">
+						<div class="[ xmall-1 pull-left ][ inline-block align-middle ]">
+							<i class="[ icon-cat ][ color-primary ]"></i>
+						</div>
+						<div class="[ xmall-11 pull-left ][ inline-block align-middle ]">
+							<span class="[ color-primary ]">Gatos</span>
+						</div>
+					</li>
+					<li class="[ row ]">
+						<div class="[ xmall-1 pull-left ][ inline-block align-middle ]">
+							<i class="[ icon-cigarrette ][ color-primary ]"></i>
+						</div>
+						<div class="[ xmall-11 pull-left ][ inline-block align-middle ]">
+							<span class="[ color-primary ]">Cigarro</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
 
+	<section class="[ calculator ]">
+		<div class="[ border ]">
+			<div class="[ padding ]">
+				<h3 class="[ text-center ]">Calcula el costo de envío</h3>
+				<form class="[ form ][ margin-bottom ]" action="" method="POST">
+					<fieldset class="[ columna xmall-12 medium-6 ][ center ]">
+						<div class="[ input-group ]">
+							<input type="text" placeholder="código postal" name="#" id="#">
+							<span class="input-group-addon">
+								<button class="[ bg-primary ]" type="submit" name="submit">calcular</button>
+							</span>
+						</div>
+					</fieldset>
+				</form>
+				<h3 class="[ text-center ]">$1,500</h3>
+				<div class="[ row ]">
+					<div class="[ xmall-1 pull-left ][ inline-block align-middle ]">
+						<i class="[ icon-map-marker ][ color-primary ]"></i>
+					</div>
+					<div class="[ xmall-11 pull-left ][ inline-block align-middle ]">
+						<h3 class="[ no-margin ]"><small>Puedes recogerlo en:</small></h3>
+						<h3 class="[ color-primary ]"><small>Colonia Escandón, 11800</small></h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- calculator -->
 
+	<section class="[ details ]">
+		<div class="[ padding ]">
+			<div class="[ row ]">
+				<div class="[ xmall-1 pull-left ][ inline-block align-middle ]">
+					<i class="[ icon-text ][ color-primary ]"></i>
+				</div>
+				<div class="[ xmall-11 pull-left ][ inline-block align-middle ]">
+					<p><span class="[ color-primary ]">Detalles:</span> Aliter enim nosmet ipsos nosse non possumus. Primum cur ista res digna odio est, nisi quod est turpis? Dolere malum est: in crucem qui agitur, beatus esse non potest. Aut unde est hoc contritum vetustate proverbium: quicum in tenebris?</p>
+				</div>
+			</div>
+		</div>
+	</section><!-- details -->
 
-						/**
-						 * Triggered events
-						**/
-						$('.container').scroll(function(){
-							fixedHeader();
-						});
-
-
-						/**
-						 * Responsive
-						**/
-
-					});
-				}(jQuery));
-			</script>
-		</script>
-	</body>
-</html>
+	<section class="[ user-compact][ bg-primary ][ text-center ]">
+		<div class="[ padding ]">
+			<i class="[ block ][ margin-bottom ][ icon-user icon--xlarge ]"></i>
+			<h3 class="[ color-light ]">Name of the user</h3>
+			<ul class="[ rating-stars ]">
+				<li class="[ star ][ inline-block align-middle ]">
+					<i class="[ icon-filled-star ]"></i>
+				</li>
+				<li class="[ star ][ inline-block align-middle ]">
+					<i class="[ icon-filled-star ]"></i>
+				</li>
+				<li class="[ star ][ inline-block align-middle ]">
+					<i class="[ icon-filled-star ]"></i>
+				</li>
+				<li class="[ star ][ inline-block align-middle ]">
+					<i class="[ icon-hollow-star ]"></i>
+				</li>
+				<li class="[ star ][ inline-block align-middle ]">
+					<i class="[ icon-hollow-star ]"></i>
+				</li>
+			</ul>
+			<p><a href="#" class="[ color-light ]">4 reseñas</a></p>
+			<a class="[ button button--hollow ]">
+				ver perfil
+			</a>
+		</div>
+	</section>
+<?php include_once "footer.php" ?>

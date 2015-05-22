@@ -1,267 +1,51 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Mobbily</title>
-		<link rel="shortcut icon" href="images/favicon.ico">
-		<link rel="stylesheet" href="style.css">
-		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-		<meta name="description" content="">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta http-equiv="cleartype" content="on">
-		<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-
-		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-
-		<!-- TYPEKIT -->
-			<script src="//use.typekit.net/xqu5wzd.js"></script>
-			<script>try{Typekit.load();}catch(e){}</script>
-		<!-- TYPEKIT -->
-	</head>
-	<body>
-		<!--[if lt IE 9]>
-			<p class="chromeframe">Estás usando una versión <strong>vieja</strong> de tu explorador. Por favor <a href="http://browsehappy.com/" target="_blank"> actualiza tu explorador</a> para tener una experiencia completa.</p>
-		<![endif]-->
-		<div class="[ container ]">
-			<header class="">
-				<div class="[ clearfix xmall-12 ]">
-					<div class="[ span xmall-8 ]">
-						<i class="[ icon-mobbily-logo ][ text-center ][ bg-primary ][ inline-block align-top ]">
-						</i><h1 class="[ inline-block align-top ][ color-primary ]">
-							<i class="[ icon-mobbily ]"></i>
-						</h1>
-					</div>
-					<div class="[ columna xmall-4 ][ text-right ]">
-						<a class="[ menu__item ][ inline-block align-middle ]">
-							<i class="[ icon-cart ]"></i>
-							<!-- <span class="[ notification notification__number ]">
-								1
-							</span> -->
-						</a><a class="[ menu__item ][ inline-block align-middle ]">
-							<i class="[ icon-menu ]"></i>
-						</a>
-					</div>
+<?php include_once "header.php" ?>
+	<section class="[ cart ]">
+		<div class="[ padding ][ text-center ]">
+			<h3 class="[ margin-bottom ][ uppercase ]">Carrito de compras</h3>
+			<i class="[ block xmall-12 ][ text-center ][ color-primary ][ icon-cart icon--large ]"></i>
+		</div>
+		<div class="[ text-center ]">
+			<div class="[ row ][ padding ][ border ]">
+				<div class="[ columna xmall-6 ]">
+					<img class="[ image-responsive ]" src="images/chair.jpg" alt="">
+					<a href="#" class="[ text-center ][ button button--ink button--danger ]">Borrar</a>
 				</div>
-			</header>
-			<div class="[ main ]">
-
-				<section class="[ cart ]">
-					<div class="[ padding ][ text-center ]">
-						<h3 class="[ margin-bottom ][ uppercase ]">Carrito de compras</h3>
-						<i class="[ block xmall-12 ][ text-center ][ color-primary ][ icon-cart icon--large ]"></i>
-					</div>
-					<div class="[ text-center ]">
-						<div class="[ row ][ padding ][ border ]">
-							<div class="[ columna xmall-6 ]">
-								<img class="[ image-responsive ]" src="images/chair.jpg" alt="">
-								<a href="#" class="[ text-center ][ button button--ink button--danger ]">Borrar</a>
-							</div>
-							<div class="[ columna xmall-6 ]">
-								<h4>CB2 Rectangular Shade Floor Lamp</h4>
-								<p>$12,545.00</p>
-								<h3><i class="[ color-primary ][ icon-menu ]"></i> <span class="[ text--large ]">3</span> <i class="[ color-primary ][ icon-menu ]"></i></h3>
-							</div>
-						</div>
-						<div class="[ row ][ padding ][ border ]">
-							<div class="[ columna xmall-6 ]">
-								<img class="[ image-responsive ]" src="images/chair.jpg" alt="">
-								<a href="#" class="[ text-center ][ button button--ink button--danger ]">Borrar</a>
-							</div>
-							<div class="[ columna xmall-6 ]">
-								<h4>CB2 Rectangular Shade Floor Lamp</h4>
-								<p>$12,545.00</p>
-								<h3><i class="[ color-primary ][ icon-menu ]"></i> <span class="[ text--large ]">3</span> <i class="[ color-primary ][ icon-menu ]"></i></h3>
-							</div>
-						</div>
-					</div>
-				</section><!-- product-images -->
-
-				<section class="[ bg-primary ]">
-					<div class="[ padding ]">
-						<h3 class="[ no-margin ][ text-center ]">Total: $3,000</h3>
-					</div>
-				</section>
-
-				<section class="[ actions ]">
-					<div class="[ padding ][ text-center ]">
-						<artlce class="[ block ][ margin-bottom ]">
-							<a href="" class="[ button button--hollow button--primary ]">vaciar carrito</a>
-							<a href="" class="[ button button--hollow button--primary ]">seguir comprando</a>
-						</artlce>
-						<input class="[ xmall-12 ][ padding ][ margin-bottom ]" type="text" placeholder="código de cupón">
-						<a href="" class="[ block ][ button button--hollow button--primary ][ margin-bottom ]">aplicar cupón</a>
-						<a href="" class="[ button button--highlight ][ margin-bottom ]">checkout</a>
-					</div>
-				</section>
-
-			</div><!-- main -->
-
-			<section class="[ action-buttons ]">
-				<a href="#" class="[ button button--primary button--action ]"><i class="[ icon-menu ]"></i></a>
-				<a href="#" class="[ button button--primary button--action ]"><i class="[ icon-cart ]"></i></a>
-			</section><!-- action-buttons -->
-
-			<section class="[ modal-wrapper ][ hide ]">
-				<div class="[ modal ]">
-					<div class="[ modal-content ]">
-						<article class="[ search ]">
-							<div class="[ padding ]">
-								<form class="[ form ]" action="http://mobilly.us10.list-manage1.com/subscribe/post" method="POST">
-									<fieldset class="[ columna xmall-12 medium-6 ][ center ]">
-										<div class="input-group">
-											<input type="text" placeholder="buscar" name="s">
-											<span class="input-group-addon">
-												<button class="[ bg-primary ]" type="submit" name="submit"><i class="[ icon-search ]"></i></button>
-											</span>
-										</div>
-									</fieldset>
-								</form>
-							</div>
-						</article><!-- search -->
-						<article class="[ menu ]">
-							<div class="[ row ][ bg-dark ]">
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--light button--ink ]"><i class="[ icon-sillones ]"></i>quiero comprar</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--light button--ink ]"><i class="[ icon-vender ]"></i>quiero vender</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--light button--ink ]"><i class="[ icon-como-funciona ]"></i>¿cómo funciona?</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--light button--ink ]"><i class="[ icon-user ]"></i>blog</a>
-									</div>
-								</div>
-								<div class="[ span xmall-12 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--light button--ink ]"><i class="[ icon-blog ]"></i>mi cuenta</a>
-									</div>
-								</div>
-							</div>
-						</article><!-- menu -->
-						<article class="[ categorias ]">
-							<h3 class="[ text-center ]">Categorías</h3>
-							<div class="[ row ]">
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--primary button--ink ]"><i class="[ icon-sillones ]"></i>Sillones</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--primary button--ink ]"><i class="[ icon-sillas ]"></i>Sillas</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--primary button--ink ]"><i class="[ icon-sillones ]"></i>Sillones</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--primary button--ink ]"><i class="[ icon-mesas ]"></i>Mesas</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--primary button--ink ]"><i class="[ icon-recamaras ]"></i>Recámaras</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--primary button--ink ]"><i class="[ icon-almacenaje ]"></i>Almacenaje</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--primary button--ink ]"><i class="[ icon-iluminación ]"></i>Iluminación</a>
-									</div>
-								</div>
-							</div>
-						</article><!-- categorias -->
-					</div><!-- modal-content -->
-					<a href="#" class="[ button button--primary button--action ]"><i class="[ icon-close ]"></i></a>
+				<div class="[ columna xmall-6 ]">
+					<h4>CB2 Rectangular Shade Floor Lamp</h4>
+					<p>$12,545.00</p>
+					<h3><i class="[ color-primary ][ icon-menu ]"></i> <span class="[ text--large ]">3</span> <i class="[ color-primary ][ icon-menu ]"></i></h3>
 				</div>
-			</section>
-		</div><!-- container -->
-		<footer class="">
-			<section class="[ border ][ padding ]">
-				<div class="[ wrapper ]">
-					<h3 class="[ title ] [ text-center ]">Suscríbete a nuestro newsletter</h3>
-					<form class="[ form form--large ]" action="http://mobilly.us10.list-manage1.com/subscribe/post" method="POST">
-						<fieldset class="[ columna xmall-12 medium-6 ][ center ]">
-							<div class="input-group">
-								<input type="hidden" name="u" value="0511c8319e03329d800c3ac07">
-								<input type="hidden" name="id" value="dd4085bde0">
-								<input type="text" placeholder="tu@correo.com" name="MERGE0" id="MERGE0">
-								<span class="input-group-addon">
-									<button class="[ bg-primary ]" type="submit" name="submit"><i class="[ icon-newspaper ]"></i></button>
-								</span>
-							</div>
-						</fieldset>
-					</form>
-				</div><!-- wrapper -->
-			</section><!-- border -->
+			</div>
+			<div class="[ row ][ padding ][ border ]">
+				<div class="[ columna xmall-6 ]">
+					<img class="[ image-responsive ]" src="images/chair.jpg" alt="">
+					<a href="#" class="[ text-center ][ button button--ink button--danger ]">Borrar</a>
+				</div>
+				<div class="[ columna xmall-6 ]">
+					<h4>CB2 Rectangular Shade Floor Lamp</h4>
+					<p>$12,545.00</p>
+					<h3><i class="[ color-primary ][ icon-menu ]"></i> <span class="[ text--large ]">3</span> <i class="[ color-primary ][ icon-menu ]"></i></h3>
+				</div>
+			</div>
+		</div>
+	</section><!-- product-images -->
 
-			<section class="[ text-center ][ margin-bottom ][ padding ]">
-				<a href="#"><small>¿Quiénes somos?</small></a>
-				<a href="#"><small>¿Cómo funciona?</small></a>
-				<a href="#"><small>FAQs</small></a>
-				<a href="#"><small>Trabaja con nosotros</small></a>
-				<a href="#"><small>Devoluciones y reembolsos</small></a>
-				<a href="#"><small>Términos y condiciones</small></a>
-				<a href="#"><small>Política de privacidad</small></a>
-				<a href="#"><small>Ayúdanos a transportar</small></a>
-				<a href="#"><small>Contacto</small></a>
-			</section>
+	<section class="[ bg-primary ]">
+		<div class="[ padding ]">
+			<h3 class="[ no-margin ][ text-center ]">Total: $3,000</h3>
+		</div>
+	</section>
 
-			<section class="[ text-center ]">
-				<p>
-					<small>
-						© 2014 Mobbily S.A de C.V.<br />
-						todos los derechos reservados.
-					</small>
-				</p>
-			</section>
-		</footer>
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script type="text/javascript" src="js/plugins.js"></script>
-		<script type="text/javascript" src="js/functions.js"></script>
-		<script type="text/javascript">
-				(function( $ ) {
-					"use strict";
-					$(function(){
+	<section class="[ actions ]">
+		<div class="[ padding ][ text-center ]">
+			<artlce class="[ block ][ margin-bottom ]">
+				<a href="" class="[ button button--hollow button--primary ]">vaciar carrito</a>
+				<a href="" class="[ button button--hollow button--primary ]">seguir comprando</a>
+			</artlce>
+			<input class="[ xmall-12 ][ padding ][ margin-bottom ]" type="text" placeholder="código de cupón">
+			<a href="" class="[ block ][ button button--hollow button--primary ][ margin-bottom ]">aplicar cupón</a>
+			<a href="" class="[ button button--highlight ][ margin-bottom ]">checkout</a>
+		</div>
+	</section>
 
-						/**
-						 * On load
-						**/
-
-
-
-						/**
-						 * Triggered events
-						**/
-						$('.container').scroll(function(){
-							fixedHeader();
-						});
-
-
-						/**
-						 * Responsive
-						**/
-
-					});
-				}(jQuery));
-			</script>
-		</script>
-	</body>
-</html>
+<?php include_once "footer.php" ?>
