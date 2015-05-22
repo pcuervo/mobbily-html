@@ -67,7 +67,7 @@ function openModal(element){
 	console.log(element);
 	$(element).removeClass('hide');
 	$(element+' .action-button').addClass('always-opened');
-	$('body').css('position', 'fixed')
+	$('body').css('overflow', 'hidden');
 }
 
 /**
@@ -76,7 +76,7 @@ function openModal(element){
 function closeModal(){
 	$('.modal-wrapper').addClass('hide');
 	$('.modal-wrapper .action-button').removeClass('always-opened');
-	$('body').css('position', 'initial')
+	$('body').css('overflow', 'visible');
 }
 
 
