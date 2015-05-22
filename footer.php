@@ -28,27 +28,15 @@
 						</article><!-- search -->
 						<article class="[ menu ]">
 							<div class="[ row ][ bg-dark ]">
-								<div class="[ span xmall-6 ][ border ]">
-									<a href="#" class="[ block ][ button button--light button--ink ][ padding ]"><i class="[ icon-sillones ]"></i>quiero comprar</a>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<a href="#" class="[ block ][ button button--light button--ink ][ padding ]"><i class="[ icon-vender ]"></i>quiero vender</a>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<a href="#" class="[ block ][ button button--light button--ink ][ padding ]"><i class="[ icon-como-funciona ]"></i>¿cómo funciona?</a>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<a href="#" class="[ block ][ button button--light button--ink ][ padding ]"><i class="[ icon-user ]"></i>blog</a>
-								</div>
+								<a href="#" class="[ span xmall-6 ][ border ][ button button--light button--ink ][ padding ]"><i class="[ icon-sillones ]"></i>quiero comprar</a>
+								<a href="new-product.php" class="[ span xmall-6 ][ border ][ button button--light button--ink ][ padding ]"><i class="[ icon-vender ]"></i>quiero vender</a>
+								<a href="#" class="[ span xmall-6 ][ border ][ button button--light button--ink ][ padding ]"><i class="[ icon-como-funciona ]"></i>¿cómo funciona?</a>
+								<a href="#" class="[ span xmall-6 ][ border ][ button button--light button--ink ][ padding ]"><i class="[ icon-user ]"></i>blog</a>
 								<!-- If it is logged in show this: -->
-								<div class="[ span xmall-12 ][ border ][ text-center ][ bg-primary ]">
-									<a href="#" class="[ block ][ button button--light button--ink ][ padding ]"><i class="[ icon-blog ]"></i>mi cuenta</a>
-								</div>
+								<a href="#" class="[ span xmall-12 ][ border ][ button button--light button--ink ][ bg-primary ][ padding ]"><i class="[ icon-blog ]"></i>mi cuenta</a>
 								<!-- If it is logged out show this: -->
-								<div class="[ span xmall-12 ][ border ][ text-center ][ bg-primary ]">
-									<a href="login.php" class="[ block ][ button button--light button--ink ][ padding ]"><i class="[ icon-blog ]"></i>log in o registrate</a>
+								<a href="login.php" class="[ span xmall-12 ][ border ][ button button--light button--ink ][ bg-primary ][ padding ]"><i class="[ icon-blog ]"></i>log in o registrate</a>
 								</div>
-
 							</div>
 						</article><!-- menu -->
 						<article class="[ categorias ]">
@@ -56,41 +44,14 @@
 								<h3 class="[ text-center ][ no-margin ]">Categorías</h3>
 							</div>
 							<div class="[ row ]">
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--primary button--ink ]"><i class="[ icon-sillones ]"></i>Sillones</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--primary button--ink ]"><i class="[ icon-sillas ]"></i>Sillas</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--primary button--ink ]"><i class="[ icon-sillones ]"></i>Sillones</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--primary button--ink ]"><i class="[ icon-mesas ]"></i>Mesas</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--primary button--ink ]"><i class="[ icon-recamaras ]"></i>Recámaras</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--primary button--ink ]"><i class="[ icon-almacenaje ]"></i>Almacenaje</a>
-									</div>
-								</div>
-								<div class="[ span xmall-6 ][ border ]">
-									<div class="padding">
-										<a href="#" class="[ button button--primary button--ink ]"><i class="[ icon-iluminación ]"></i>Iluminación</a>
-									</div>
-								</div>
+								<a href="#" class="[ span xmall-6 ][ border ][ button button--primary button--ink ][ padding ]"><i class="[ icon-sillones ]"></i>Sillones</a>
+								<a href="#" class="[ span xmall-6 ][ border ][ button button--primary button--ink ][ padding ]"><i class="[ icon-sillas ]"></i>Sillas</a>
+								<a href="#" class="[ span xmall-6 ][ border ][ button button--primary button--ink ][ padding ]"><i class="[ icon-mesas ]"></i>Mesas</a>
+								<a href="#" class="[ span xmall-6 ][ border ][ button button--primary button--ink ][ padding ]"><i class="[ icon-recamaras ]"></i>Recámaras</a>
+								<a href="#" class="[ span xmall-6 ][ border ][ button button--primary button--ink ][ padding ]"><i class="[ icon-almacenaje ]"></i>Almacenaje</a>
+								<a href="#" class="[ span xmall-6 ][ border ][ button button--primary button--ink ][ padding ]"><i class="[ icon-iluminación ]"></i>Iluminación</a>
+								<a href="#" class="[ span xmall-6 ][ border ][ button button--primary button--ink ][ padding ]"><i class="[ icon-decoration ]"></i>Decoración</a>
+								<a href="#" class="[ span xmall-6 ][ border ][ button button--primary button--ink ][ padding ]"><i class="[ icon-kids ]"></i>para niños</a>
 							</div>
 						</article><!-- categorias -->
 						<artcile class="[ initial ]">

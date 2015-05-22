@@ -1,12 +1,13 @@
 <?php include_once "header.php" ?>
 	<section class="[ create-login ]">
 		<div class="[ padding ][ text-center ][ border ]">
-			<h3 class="[ no-margin ][ uppercase ]">Crea una cuenta</h3>
+			<h3 class="[ no-margin ][ uppercase ]">Mi cuenta</h3>
 		</div>
 		<div class="[ wrapper ]">
-			<form action="my-dashboard.php">
+			<form action="">
 				<div class="[ padding ][ text-center ]">
-					<h3 class="[ margin-bottom ]"><small class="[ color-primary ]">Información personal</small></h3>
+					<h3 class="[ margin-bottom ]"><small class="[ color-primary ]">Mis datos <a href="#">editar</a></small></h3>
+
 				</div>
 				<fieldset class="[ margin-bottom ]">
 					<label class="[ block xmall-12 ]" for="email">Nombre <span class="[ color-primary ]">*</span></label>

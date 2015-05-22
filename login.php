@@ -28,8 +28,8 @@
 			</article>
 			<article>
 				<div class="[ padding ][ text-center ][ ]">
-					<h3 class="[ margin-bottom ]"><small class="[ color-primary ]">O crea una cuenta</small></h3>
-					<a href="create-account.php" class="[ button button--hollow button--primary ]">crea una cuenta</a>
+					<p class="[ no-margin ]">¿No tienes una cuenta aún?</p>
+					<a href="create-account.php">Registrate aquí</a>
 				</div>
 			</article>
 		</div><!-- wrapper -->
