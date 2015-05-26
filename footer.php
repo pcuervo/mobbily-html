@@ -276,6 +276,12 @@
 							closeModal();
 						});
 
+						$('.js-product-opener').on('click', function(e){
+							e.preventDefault();
+							var toOpen = this;
+							toggleVisibility(toOpen);
+						});
+
 
 
 

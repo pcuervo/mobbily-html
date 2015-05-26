@@ -100,6 +100,42 @@
 					<p class="[ no-margin ]"><small>Satisfactorio - el producto se encuentra dentro de su caja </small></p>
 					<p class="[ no-margin ]"><small>Gastado - el producto se encuentra dentro de su caja </small></p>
 				</fieldset>
+				<fieldset class="[ margin-bottom ]">
+					<label class="[ block xmall-12 ]" for="">Marca</label>
+					<select class="[ padding ][ text-center ]">
+						<option href="#" value="nuevo" >nuevo</a>
+						<option href="#" value="bueno" >bueno</a>
+						<option href="#" value="satisfactorio" >satisfactorio</a>
+						<option href="#" value="gastado" >gastado</a>
+					</select>
+				</fieldset>
+				<fieldset class="[ margin-bottom ]">
+					<label class="[ block xmall-12 ]" for="">Material<span class="[ color-primary ]">*</span></label>
+					<select class="[ padding ][ text-center ]">
+						<option href="#" value="nuevo" >nuevo</a>
+						<option href="#" value="bueno" >bueno</a>
+						<option href="#" value="satisfactorio" >satisfactorio</a>
+						<option href="#" value="gastado" >gastado</a>
+					</select>
+				</fieldset>
+				<fieldset class="[ margin-bottom ]">
+					<label class="[ block xmall-12 ]" for="">Edad<span class="[ color-primary ]">*</span></label>
+					<select class="[ padding ][ text-center ]">
+						<option href="#" value="nuevo" >nuevo</a>
+						<option href="#" value="bueno" >bueno</a>
+						<option href="#" value="satisfactorio" >satisfactorio</a>
+						<option href="#" value="gastado" >gastado</a>
+					</select>
+				</fieldset>
+				<fieldset class="[ margin-bottom ]">
+					<label class="[ block xmall-12 ]" for="">Color<span class="[ color-primary ]">*</span></label>
+					<select class="[ padding ][ text-center ]">
+						<option href="#" value="nuevo" >nuevo</a>
+						<option href="#" value="bueno" >bueno</a>
+						<option href="#" value="satisfactorio" >satisfactorio</a>
+						<option href="#" value="gastado" >gastado</a>
+					</select>
+				</fieldset>
 			</div>
 		</section>
 

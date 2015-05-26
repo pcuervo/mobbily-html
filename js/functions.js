@@ -60,11 +60,18 @@ function scrollY() {
 }
 
 /**
+ * Toggle any element
+ * @param element to be shown
+**/
+function toggleVisibility(element){
+	$(element).toggleClass('opened');
+}
+
+/**
  * Opens Modal
  * @param element to be shown
 **/
 function openModal(element){
-	console.log(element);
 	$(element).removeClass('hide');
 	$(element+' .action-button').addClass('always-opened');
 	$('body').css('overflow', 'hidden');
