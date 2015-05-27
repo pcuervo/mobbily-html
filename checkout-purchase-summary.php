@@ -23,6 +23,26 @@
 				<option value="">quiero que me lo envíen</option>
 			</select>
 		</div>
+		<div class="[ padding ][ border ]">
+			<h4>Asegurate de que el artículo quepa en tu casa con la <a href="#">guía para medir muebles</a></h4>
+		</div>
+		<article class="[ padding ][ border ]">
+			<h3 class="[ color-primary ][ text-center "><small>Datos para envío</small></h3>
+			<p class="[ no-margin ]"><span class="[ color-primary ]">Nombre:</span> Ricardo Flores</p>
+			<p class="[ no-margin ]"><span class="[ color-primary ]">Dirección:</span> Ejido San Andrés 75</p>
+			<p class="[ no-margin ]"><span class="[ color-primary ]">Código postal:</span> 05880</p>
+			<p class="[ no-margin ]"><span class="[ color-primary ]">Delegación:</span> Miguel Hidalgo</p>
+			<p class="[ no-margin ]"><span class="[ color-primary ]">Colonia:</span> 05880</p>
+			<p class="[ no-margin ]"><span class="[ color-primary ]">Ciudad:</span> 05880</p>
+			<p class="[ no-margin ]"><span class="[ color-primary ]">Entre:</span> Calle x y calle y</p>
+			<p class="[ margin-bottom--small ]"><span class="[ color-primary ]">Teléfono:</span> 5295 5555</p>
+			<input type="checkbox" class="[ margin-bottom ]"> Usar esta dirección
+			<div class="[ text-center ]">
+				<a href="" class="[ button button--hollow button--primary ][ margin-bottom--small ]">editar dirección</a>
+				<a href="" class="[ button button--hollow button--primary ]">agregar dirección</a>
+			</div>
+		</article>
+
 	</section>
 
 <?php include_once "footer.php" ?>
