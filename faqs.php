@@ -160,7 +160,41 @@
 					</a>
 				</h3>
 				<div id="accordion-13" class="[ accordion-section-content ]">
-					<p>Actualmente</p>
+					<article class="[ margin-bottom ]">
+						<h2 class="[ no-margin ][ text-center ][ color-primary ]">1</h2>
+						<h3 class="[ margin-bottom--small ]"><small>Selecciona el artículo correcto</small></h3>
+						<p>Utiliza las dimensiones indicadas en la descripción del producto para asegurarte de que el artículo que estás comprando  quepa dentro de tu casa. Si el artículo no tiene medidas, pregunta al vendedor por el dato. </p>
+					</article>
+					<article class="[ margin-bottom ]">
+						<h2 class="[ no-margin ][ text-center ][ color-primary ]">2</h2>
+						<h3 class="[ margin-bottom--small ]"><small>Mide los accesos a tu casa</small></h3>
+						<p>Antes de comprar, asegurate de que el artículo que quieres pase libremente através de las puertas, elevadores, escaleras y haya espacio para maniobrar. Te dejamos algunos tips para usar como referencia.</p>
+						<p>Mide la altura y el ancho de todos los accesos por los que pasará tu artículo.</p>
+					</article>
+					<article class="[ margin-bottom ]">
+						<h2 class="[ no-margin ][ text-center ][ color-primary ]">2</h2>
+						<h3 class="[ margin-bottom--small ]"><small>Mide los accesos a tu casa</small></h3>
+						<p>Antes de comprar, asegurate de que el artículo que quieres pase libremente através de las puertas, elevadores, escaleras y haya espacio para maniobrar. Te dejamos algunos tips para usar como referencia.</p>
+						<p>Mide la altura y el ancho de todos los accesos por los que pasará tu artículo.</p>
+						<img src="images/width.jpg" alt="">
+						<p>Recuerda también medir la distancia entre el acceso y el muro que delimita la habitación para determinar si el espacio es óptimo para maniobrar.</p>
+						<img src="images/pasillo.jpg" alt="">
+						<p>Usa las medidas de las puertas para determinar si el mueble puede entrar derecho o si es necesario ponerlo en ángulo. Asegurate de que no haya nada que obstruya el paso en cada acceso</p>
+					</article>
+					<article class="[ margin-bottom ]">
+						<h2 class="[ no-margin ][ text-center ][ color-primary ]">3</h2>
+						<h3 class="[ margin-bottom--small ]"><small>Asegúrate de que  quepa</small></h3>
+						<p>Con base en la medidas  del artículo, confirma que el mueble cabrá  en todos los espacios  y pasará por todos los accesos sin problema. Acontinuación te presentamos algunas de las medidas a tomar en cuenta antes de realizar tu compra.</p>
+						<p class="[ text-center ]">Sillones</p>
+						<img src="images/couches-a.jpg" alt="">
+						<img src="images/couches-b.jpg" alt="">
+						<p class="[ text-center ]">Estantes</p>
+						<img src="images/book-a.jpg" alt="">
+						<img src="images/book-b.jpg" alt="">
+						<p class="[ text-center ]">Mesas</p>
+						<img src="images/tables.jpg" alt="">
+						<p class="[ text-center ]">Camas</p>
+						<img src="images/beds.jpg" alt="">
 				</div><!--end .accordion-section-content-->
 			</div><!--end .accordion-section-->
 
