@@ -723,14 +723,9 @@
 
 									<div class="section">
 										<div class="slider-wrapper blue-slider">
-											<div id="slider"></div>
-										</div><!-- end .slider-wrapper -->
-									</div><!-- end section -->
-
-									<div class="section">
-										<div class="slider-wrapper yellow-slider">
 											<div id="slider1"></div>
 										</div><!-- end .slider-wrapper -->
+										<p class="[ row ]"><span class="[ push-left ][ js-starting-price ]">0</span><span class="[ push-right ][ js-finishing-price ]">100</span></p>
 									</div><!-- end section -->
 
 								</div><!-- end .form-body section -->
@@ -979,17 +974,23 @@
 
 			/* @ui slider
 			------------------------------------------------------------------ */
-			$("#slider").slider({
-				range: "min",
-				min: 10,
-				max: 100,
-				value: 80
-			});
 
 			$("#slider1").slider({
+				min: 0,
+				max: 100,
 				range: true,
-				values: [17, 83]
+				values: [10, 90],
+
+
+				slide: function( event, ui ) {
+					//$( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+					$( ".js-starting-price" ).val( "$" + ui.values[ 0 ]);
+					$( ".js-finishing-price" ).val( "$" + ui.values[ 1 ]);
+				}
 			});
+			$( ".js-starting-price" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) );
+			$( ".js-finishing-price" ).val( "$" + $( "#slider-range" ).slider( "values", 1 ) );
+			//$( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) + " - $" + $( "#slider-range" ).slider( "values", 1 ) );
 
 });
 
