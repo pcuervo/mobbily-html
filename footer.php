@@ -223,15 +223,15 @@
 			</section><!-- border -->
 
 			<section class="[ text-center ][ margin-bottom ][ padding ]">
-				<a href="#"><small>¿Quiénes somos?</small></a>
-				<a href="#"><small>¿Cómo funciona?</small></a>
-				<a href="#"><small>FAQs</small></a>
-				<a href="#"><small>Trabaja con nosotros</small></a>
-				<a href="#"><small>Devoluciones y reembolsos</small></a>
-				<a href="#"><small>Términos y condiciones</small></a>
-				<a href="#"><small>Política de privacidad</small></a>
-				<a href="#"><small>Ayúdanos a transportar</small></a>
-				<a href="#"><small>Contacto</small></a>
+				<a href="who-we-are.php"><small>¿Quiénes somos?</small></a>
+				<a href="how-it-works.php"><small>¿Cómo funciona?</small></a>
+				<a href="faqs.php"><small>FAQs</small></a>
+				<a href="work-with-us.php"><small>Trabaja con nosotros</small></a>
+				<a href="return-policy.php"><small>Devoluciones y reembolsos</small></a>
+				<a href="terms-and-conditions.php"><small>Términos y condiciones</small></a>
+				<a href="privacy-policy.php"><small>Política de privacidad</small></a>
+				<a href="help-us-deliver.php"><small>Ayúdanos a transportar</small></a>
+				<a href="contact.php"><small>Contacto</small></a>
 			</section>
 
 			<section class="[ text-center ]">
