@@ -45,3 +45,10 @@
 				</div>
 			</header>
 			<div class="[ main ]">
+
+				<div class="[ notice ]">
+					<div class="[ row ][ bg-dark ]">
+						<a href="#" class="[ span xmall-6 ][ border ][ button button--light button--ink ][ padding ]"><i class="[ icon-sillones ]"></i>quiero comprar</a>
+						<a href="new-product.php" class="[ span xmall-6 ][ border ][ button button--light button--ink ][ padding ]"><i class="[ icon-vender ]"></i>quiero vender</a>
+					</div>
+				</div>
